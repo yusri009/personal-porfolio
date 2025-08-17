@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with React, Vite, and Tail
 
 ## 🌐 Live Demo
 
-The portfolio is deployed on Firebase Hosting and can be accessed at: yusriahamed.engineer
+The portfolio is deployed on Firebase Hosting and can be accessed at: www.yusriahamed.engineer
 
 ## 🛠️ Technologies Used
 

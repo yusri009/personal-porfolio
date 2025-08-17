@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: JetBrains Mono;
+    src: url(../src/assets/fonts/JetBrainsMono-Regular.ttf);
+}
+@font-face {
+    font-family: Cascadia Code;
+    src: url(../src/assets/fonts/CascadiaCode-Regular.ttf);
+}
+@theme{
+    --color-mainColor: rgb(255, 255, 132);
+    --color-secondaryColor:  #2b2b2b;
+    --font-subFont: JetBrains Mono, "monospace";
+    --font-headFont: Cascadia Code, "sans-serif";
+}

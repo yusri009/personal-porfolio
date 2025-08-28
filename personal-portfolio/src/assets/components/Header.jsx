@@ -13,10 +13,11 @@ function Header() {
     <>
     <div className=' w-full hidden md:flex flex-row  bg-secondaryColor font-headFont text-mainColor h-20'>
       <div className='flex items-center justify-center basis-1/5'>
-        <div className='text-center text-3xl text-nowrap'>&lt; Yusri_Ahamed/ &gt;</div>
+        <div className='text-center text-3xl text-nowrap p-3'>&lt; Yusri_Ahamed/ &gt;</div>
       </div>
         <div className="flex flex-row items-center justify-around basis-3/5  text-center">
-          <div className="text-xl cursor-pointer  hover:text-2xl"><Link to="/">Home</Link></div>
+          <div className="text-xl cursor-pointer  hover:text-2xl"><Link to="/">
+          Home</Link></div>
           <div className="text-xl cursor-pointer hover:text-2xl"><Link to="/skills">Skills</Link></div>
           <div className="text-xl cursor-pointer hover:text-2xl"><Link to="/projects">Projects</Link></div>
           <div className="text-xl cursor-pointer hover:text-2xl"><Link to="/contactMe">Contact Me</Link></div>
@@ -25,7 +26,7 @@ function Header() {
     
       <div className='w-full flex justify-between   bg-secondaryColor font-headFont text-mainColor h-20 md:hidden'>
         <div className='flex items-center justify-center basis-1/5'>
-          <div className='text-center text-3xl text-nowrap'>&lt; Yusri_Ahamed/ &gt;</div>
+          <div className='text-center text-3xl text-nowrap p-3'>&lt; Yusri_Ahamed/ &gt;</div>
         </div>
         <div className='flex items-center justify-center basis-1/5 '>
           {isMenuOpen ? <AiOutlineClose className='text-mainColor text-2xl ' onClick={handleClickMenu}/> : <AiOutlineMenu className='text-mainColor text-2xl'  onClick={handleClickMenu}/>}

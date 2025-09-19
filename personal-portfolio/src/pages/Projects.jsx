@@ -7,24 +7,10 @@ const projectsData = [
     video: "/videos/Snake Game Record.mkv", // public folder → use absolute path
     description: (
       <>
-        I recreated the classic Snake Game using Java by following a{" "}
-        <a
-          href="https://youtu.be/bI6e6qjJ8JQ"
-          target="_blank"
-          className="underline"
-          rel="noreferrer"
-        >
-          tutorial
-        </a>{" "}
-        from Bro Code on YouTube, and then customized it to resemble the nostalgic
-        style of old Nokia keypad phone games. While building the game, I focused on
-        applying Object-Oriented Programming (OOP) principles—such as encapsulation,
-        inheritance, and modular class design—to structure the code cleanly and
-        maintainably. I modified the graphics and controls to give it a retro mobile
-        feel, enhancing both the user experience and the technical depth of the
-        project. This experience not only strengthened my Java fundamentals but also
-        helped me gain hands-on practice in organizing game logic, managing
-        real-time user input, and creating a responsive GUI.
+        I recreated the classic Snake Game in Java and customized it to resemble the nostalgic style of old Nokia keypad phone games. While building the game, 
+        I applied Object-Oriented Programming (OOP) principles—such as encapsulation, inheritance, and modular class design—to keep the code clean, organized, 
+        and maintainable. I also modified the graphics and controls to give it a retro mobile feel, enhancing both the user experience and the technical depth of the project. 
+        This project strengthened my Java fundamentals and gave me hands-on practice in organizing game logic, handling real-time user input, and developing a responsive GUI.
         <br />
         <a
           href="https://github.com/yusri009/SnakeGameJava"

@@ -1,7 +1,7 @@
 import React from 'react'
-import ProfilePhoto from "../../public/photos/yusriPhotoWeb.svg"
+import ProfilePhoto from "/photos/yusriPhotoWeb.svg"
 import { FaLinkedin, FaGithubSquare, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
-import cv from "../../public/docs/Yusri_CV_Final.pdf"
+import cv from "/docs/Yusri_CV_Final.pdf"
 const Home = () => {
   return (
     <section className='grid gap-8'>

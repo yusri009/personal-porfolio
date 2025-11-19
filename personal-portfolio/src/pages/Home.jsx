@@ -1,20 +1,20 @@
 import React from 'react'
-import ProfilePhoto from "../../public/photos/profile-pic.png"
+import ProfilePhoto from "../../public/photos/yusriPhotoWeb.svg"
 import { FaLinkedin, FaGithubSquare, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
-import cv from "../../public/docs/Yusri_CV_General.pdf"
+import cv from "../../public/docs/Yusri_CV_Final.pdf"
 const Home = () => {
   return (
     <section className='grid gap-8'>
       <div className='grid md:grid-cols-2'>
         <div className='lg:size-150 lg:ms-25'>
-          <img src={ProfilePhoto} alt="" className=''/>
+          <img src={ProfilePhoto} alt="" className='rounded-full'/>
         </div>
         <div className=''>
             <div className='mt-10'>
                 <h1 className='text-center font-headFont text-6xl m-3'>I am Yusri Ahamed</h1>
                 <h2 class="text-center font-headFont text-4xl font-semibold m-7"> Engineer</h2>
                 <h3 class="text-center font-subFont text-4xl m-6">Welcome to my portfolio!</h3>
-                <p class="text-center font-subFont text-2xl my-15 mx-15">
+                <p class="text-center font-subFont text-2xl my-15 mx-1 md:mx-15">
                                                               I'm glad you're here. I'm a passionate Java Developer, Web Developer, and Python Developer 
                                                               with a love for building clean, functional, and responsive applications. This portfolio 
                                                               showcases some of my best work, my skills, and the journey I'm on as a developer. 

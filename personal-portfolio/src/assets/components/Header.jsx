@@ -16,11 +16,11 @@ function Header() {
         <div className='text-center text-3xl text-nowrap p-3'>&lt; Yusri_Ahamed/ &gt;</div>
       </div>
         <div className="flex flex-row items-center justify-around basis-3/5  text-center">
-          <div className="text-xl cursor-pointer  hover:text-2xl"><Link to="/">
+          <div className="text-xl cursor-pointer  hover:text-2xl" onClick={() => {setIsMenuOpen(false)}}><Link to="/">
           Home</Link></div>
-          <div className="text-xl cursor-pointer hover:text-2xl"><Link to="/skills">Skills</Link></div>
-          <div className="text-xl cursor-pointer hover:text-2xl"><Link to="/projects">Projects</Link></div>
-          <div className="text-xl cursor-pointer hover:text-2xl"><Link to="/contactMe">Contact Me</Link></div>
+          <div className="text-xl cursor-pointer hover:text-2xl" onClick={() => {setIsMenuOpen(false)}}><Link to="/skills">Skills</Link></div>
+          <div className="text-xl cursor-pointer hover:text-2xl" onClick={() => {setIsMenuOpen(false)}}><Link to="/projects">Projects</Link></div>
+          <div className="text-xl cursor-pointer hover:text-2xl" onClick={() => {setIsMenuOpen(false)}}><Link to="/contactMe">Contact Me</Link></div>
         </div>
       </div>
     
@@ -38,6 +38,7 @@ function Header() {
           <Link
             to=""
             className="block bg-secondaryColor font-headFont text-mainColor px-15 py-3 text-xl hover:text-secondaryColor hover:bg-mainColor"
+            onClick={() => {setIsMenuOpen(false)}}
           >
             Home
           </Link>
@@ -45,6 +46,7 @@ function Header() {
           <Link
             to="skills"
             className="block bg-secondaryColor font-headFont text-mainColor px-15 py-3 text-xl hover:text-secondaryColor hover:bg-mainColor"
+            onClick={() => {setIsMenuOpen(false)}}
           >
             Skills
           </Link>
@@ -52,6 +54,7 @@ function Header() {
           <Link
             to="projects"
             className="block bg-secondaryColor font-headFont text-mainColor px-15 py-3 text-xl hover:text-secondaryColor hover:bg-mainColor"
+            onClick={() => {setIsMenuOpen(false)}}
           >
             Projects
           </Link>
@@ -59,6 +62,7 @@ function Header() {
           <Link
             to="contactMe"
             className="block bg-secondaryColor font-headFont text-mainColor px-15 py-3 text-xl hover:text-secondaryColor hover:bg-mainColor border-b-2"
+            onClick={() => {setIsMenuOpen(false)}}
           >
             Contact Me
           </Link>

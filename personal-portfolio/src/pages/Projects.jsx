@@ -71,7 +71,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="text-wrap p-10 pt-0 text-center text-lg">
+              <div className="text-wrap p-1 md:p-10 pt-0 text-center text-lg">
                 <p className="font-subFont lg:pt-30">{project.description}</p>
               </div>
               </div>
